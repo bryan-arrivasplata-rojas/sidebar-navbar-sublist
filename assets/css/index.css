@@ -15,6 +15,6 @@ width: auto;
     z-index: 9999;
     place-content: center;
 }
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
