@@ -6,14 +6,15 @@ padding-top: 70px;
 width: auto;
 }
 .loader{
-    top:0px;
     display: flex;
     background: white;
-    margin: 0 auto;
     width: 100%;
     align-items: center;
     height: 100%;
     position: absolute;
     z-index: 9999;
     place-content: center;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
